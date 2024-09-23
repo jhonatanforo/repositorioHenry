@@ -1,0 +1,66 @@
+/* Reset CSS */
+
+/* Elimina márgenes y rellenos predeterminados */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ajusta el tamaño de fuente en el body */
+body {
+  font-family: Arial, sans-serif; /* Puedes cambiar la fuente según tu preferencia */
+  line-height: 1.6;
+}
+
+/* Elimina el estilo de lista predeterminado */
+ul, ol {
+  list-style: none;
+}
+
+/* Elimina los bordes de los enlaces */
+a {
+  text-decoration: none;
+  color: inherit; /* Para que los enlaces hereden el color del texto */
+}
+
+/* Elimina el estilo de los botones y campos de formulario */
+button, input, textarea, select {
+  border: none;
+  outline: none;
+  background: none;
+  font: inherit;
+}
+
+/* Ajusta los márgenes y rellenos de los elementos de bloque */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Elimina el estilo de tabla predeterminado */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Estilos de imagen */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ajusta el comportamiento del iframe */
+iframe {
+  border: 0;
+}
+
+/* Estilos de elementos de formulario */
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
